@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:background="@color/beige_pale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/TOG_btnNormal"
+            android:text="@string/normal_call"
+            android:textColor="@color/navy_blue"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/beige_pale"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_toRightOf="@id/TOG_btnNormal"
+            android:layout_marginLeft="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/TOG_btnPay4Me"
+                android:text="@string/pay4me"
+                style="@style/btnStyleBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
